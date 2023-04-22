@@ -16,8 +16,8 @@ const Place = (props) => {
         <button className='bg-gray-700 p-2 rounded hover:bg-gray-900'>Shopping</button>
       </div>
       <div className="flex flex-col justify-center items-center gap-2">
-        {props.place.map((item) => (
-          <Card item={item} />
+        {props.place.map(( item) => (
+          <Card key= {item.id} item={item} />
         ))}
       </div>
     </div>
