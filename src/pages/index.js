@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-  import { section , card } from "./Data";
+  import { section , card } from "../components/Data";
 import Place from "@/components/Place";
 
 export default function Home() {
